@@ -3,7 +3,7 @@ var romanToInt = function (s) {
   num = 0
 
   for (let i = 0; i < s.length; i++) {
-    if (roman[s[i] < roman[s[i + 1]]) {
+    if (roman[s[i]] < roman[s[i + 1]]) {
       num -= roman[s[i]];
     } else {
       num += roman[s[i]];
