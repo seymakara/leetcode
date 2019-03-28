@@ -17,3 +17,4 @@ var isValid = function (s) {
     }
   }
   return open.length === 0
+}
